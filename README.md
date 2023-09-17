@@ -25,7 +25,7 @@ For evaluation, both a 10-days and a 1-day horizon predictions have been conside
 | ARIMA                                       | 578.280  |
 
 
-![Link Name](https://github.com/Gu-ddy/StockPriceForecasting/blob/main/Images/Comparison.png)  
+![Comparison of the third RNN and ARIMA on horizon 10 predictions](https://github.com/Gu-ddy/StockPriceForecasting/blob/main/Images/Comparison.png)  
 
 | Models Horizon 1                     | MAE     |
 |--------------------------------------|---------|
@@ -34,7 +34,7 @@ For evaluation, both a 10-days and a 1-day horizon predictions have been conside
 
 ## Architecture details
 The model was built and trained entirely using Keras functional API. A summary diagram of the architecture is given by 
-![Link Name](Link URL) 
+![Model architecture diagram](https://github.com/Gu-ddy/StockPriceForecasting/blob/main/Images/model.png)
 On every LSTM layer l2 regularizers were used to make the network more robust. Likewise a dropout layer was added before the last fully connected layer.
 The used optimizer was Adam with default learning rate and batch size equal to 256. 
 
