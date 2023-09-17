@@ -1,0 +1,12 @@
+ Requirements:
+pip3 install numpy,scipy patsy pandas
+pip3 install statsmodels
+pip3 install pmdarima
+pip install matplotlib
+pip install seaborn
+pip install tensorflow --user
+
+
+pip install graphviz
+pip install pydot
+pip install pydotplus
