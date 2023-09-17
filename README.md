@@ -25,7 +25,7 @@ For evaluation, both a 10-days and a 1-day horizon predictions have been conside
 | ARIMA                                       | 578.280  |
 
 
-![Link Name](Link URL)  
+![Link Name](https://github.com/Gu-ddy/StockPriceForecasting/blob/main/Images/Comparison.png)  
 
 | Models Horizon 1                     | MAE     |
 |--------------------------------------|---------|
