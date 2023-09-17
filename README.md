@@ -13,7 +13,7 @@ Likewise, the impact of time series differentiation (which can be considered as 
 
 For evaluation, both a 10-days and a 1-day horizon predictions have been considered. The dataset has been divided into two parts. Approximately 80% of the observations, specifically the values from November 3, 2011, to November 4, 2019, were used to estimate the coefficients of various models. The subsequent observations, from November 5, 2019, to November 3, 2021, were reserved for error calculation and thus performance evaluation.
 
-*Mean absolute value* was used for evaluation of both the models and training of the network.  *AIC* (Akaike information Criterion) was used instead for identification and parameter estimation of the ARIMA model.
+*Mean absolute error* was used for evaluation of both the models and training of the network.  *AIC* (Akaike information Criterion) was used instead for identification and parameter estimation of the ARIMA model.
 
 ## Results
 
