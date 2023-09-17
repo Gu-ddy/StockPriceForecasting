@@ -33,7 +33,10 @@ For evaluation, both a 10-days and a 1-day horizon predictions have been conside
 | ARIMA                                | 309.902 |
 
 ## Architecture details
-The model was built and trained entirely using Keras functional API. A summary diagram of the architecture is given by 
+The model was built and trained entirely using Keras functional API.
+
+A summary diagram of the architecture is given by 
+
 ![Model architecture diagram](https://github.com/Gu-ddy/StockPriceForecasting/blob/main/Images/model.png)
 On every LSTM layer l2 regularizers were used to make the network more robust. Likewise a dropout layer was added before the last fully connected layer.
 The used optimizer was Adam with default learning rate and batch size equal to 256. 
@@ -44,10 +47,9 @@ All used data is available on the dediacted folder. Nonetheless cleaning and sim
 
 ## Future work
 There are several improvements that could be carried out, among them we have:
-1. Use a more sophisticated evaluation framework.
-2. Include exogenous data also for ARIMA
-3. Use a better optimization pipeline: 
+* Use a more sophisticated evaluation framework.
+*  Include exogenous data also for ARIMA
+*   Use a better optimization pipeline: 
 - Use early stopping partinioning more finely the dataset with a validation set.
 - Try different batch sizes and learning rate and optimizers.
-4. Build a different architecture
-5. Include fundamental analysis (only for the network).
+* Include fundamental analysis (only for the network).
