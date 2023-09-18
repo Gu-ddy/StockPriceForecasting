@@ -22,7 +22,7 @@ For evaluation, both a 10-days and a 1-day horizon predictions have been conside
 |---------------------------------------------|----------|
 | RNN no external and not differentiated data | 1006.998 |
 | RNN no external differentiated data         | 443.432  |
-| RNN external and differentiated data        | 440.53   |
+| RNN external and differentiated data        | 440.530   |
 | ARIMA                                       | 578.280  |
 
 
