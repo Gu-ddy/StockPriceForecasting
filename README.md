@@ -52,9 +52,8 @@ The used optimizer was Adam with default learning rate and batch size equal to 2
 All used data is available inside the dedicated folder, nonetheless, cleaning and simple feature engineering operations were performed before conducting the analysis, for details look at the main notebook.
 
 ## Usage
-For ready-to-go usage and to reproduce the results, you can simply run the main notebook installing the dependencies by:
-```shell
-pip install -r requirements.txt
+For ready-to-go usage and to reproduce the results, you can simply run the main notebook. Before doing so, you can install the dependencies by running:
+```pip install -r requirements.txt```
 
 ## Future work
 There are several improvements that could be carried out, among them we have:
