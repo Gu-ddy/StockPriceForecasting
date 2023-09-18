@@ -53,7 +53,8 @@ All used data is available inside the dedicated folder, nonetheless, cleaning an
 
 ## Usage
 For ready-to-go usage and to reproduce the results, you can simply run the main notebook installing the dependencies by:
-<code>pip install -r requirements.txt<code>
+```shell
+pip install -r requirements.txt
 
 ## Future work
 There are several improvements that could be carried out, among them we have:
