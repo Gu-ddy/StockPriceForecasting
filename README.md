@@ -53,7 +53,9 @@ All used data is available inside the dedicated folder, nonetheless, cleaning an
 
 ## Usage
 For ready-to-go usage and to reproduce the results, you can simply run the [main notebook](main.ipynb). Before doing so, you can install the dependencies by running:
-```pip install -r requirements.txt``` 
+```
+pip install -r requirements.txt
+``` 
 
 ## Future work
 There are several improvements that could be carried out, among them we have:
