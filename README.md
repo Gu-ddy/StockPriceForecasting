@@ -51,6 +51,9 @@ The used optimizer was Adam with default learning rate and batch size equal to 2
 ## Datasets
 All used data is available inside the dedicated folder, nonetheless, cleaning and simple feature engineering operations were performed before conducting the analysis, for details look at the main notebook.
 
+## Usage
+For ready-to-go usage and to reproduce the results, you can simply run the notebook installing the dependencies indicated in *Requirements.txt*.
+
 ## Future work
 There are several improvements that could be carried out, among them we have:
 * Including fundamental analysis (only for the network).
@@ -58,3 +61,4 @@ There are several improvements that could be carried out, among them we have:
 * Include exogenous data also for ARIMA.
 * Improving the optimization pipeline (e.g. adding early stopping with a validation set).
 * Including transformers in the architecture.
+
