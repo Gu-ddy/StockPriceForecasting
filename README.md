@@ -43,7 +43,7 @@ The used optimizer was Adam with default learning rate and batch size equal to 2
 
 
 ## Datasets
-All used data is available on the dediacted folder. Nonetheless cleaning and simple feature engineering operations were performed before conducting the analysis, for details look at the main notebook.
+All used data is available inside the dedicated folder, nonetheless, cleaning and simple feature engineering operations were performed before conducting the analysis, for details look at the main notebook.
 
 ## Future work
 There are several improvements that could be carried out, among them we have:
