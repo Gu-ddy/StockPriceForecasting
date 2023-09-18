@@ -2,8 +2,9 @@
 
 ## Description
 
-The ultimate objective of this project is to compare *ARIMA* (AutoRegressive Integrated Moving Average) models and *LSTM* based recurrent neural networks, in a widely known task: predicting a financial asset.
+![Comparison of the third RNN and ARIMA on horizon 10 predictions](https://github.com/Gu-ddy/StockPriceForecasting/blob/main/Images/Comparison.png)  
 
+The ultimate objective of this project is to compare *ARIMA* (AutoRegressive Integrated Moving Average) models and *LSTM* based recurrent neural networks, in a widely known task: predicting a financial asset.
 
 Specifically, the subject of prediction will be the closing values of the *FTSE MIB* (Financial Times Stock Exchange Milano), the most representative stock index of the Italian financial market. The observations used for analysis span a time period of 10 years, starting from November 3, 2011, to November 3, 2021.
 
@@ -24,8 +25,6 @@ For evaluation, both a 10-days and a 1-day horizon predictions have been conside
 | RNN external and differentiated data        | 440.53   |
 | ARIMA                                       | 578.280  |
 
-
-![Comparison of the third RNN and ARIMA on horizon 10 predictions](https://github.com/Gu-ddy/StockPriceForecasting/blob/main/Images/Comparison.png)  
 
 | Models Horizon 1                     | MAE     |
 |--------------------------------------|---------|
