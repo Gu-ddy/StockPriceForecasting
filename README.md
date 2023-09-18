@@ -16,19 +16,19 @@ Likewise, the impact of time series differentiation (which can be considered as 
 
 For evaluation, both a 10-days and a 1-day horizon predictions have been considered. The dataset has been divided into two parts. Approximately 80% of the observations, specifically the values from November 3, 2011, to November 4, 2019, were used to estimate the coefficients of various models. The subsequent observations, from November 5, 2019, to November 3, 2021, were reserved for error calculation and thus performance evaluation.
 
-*Mean absolute error* was used for evaluation of both the models and training of the network.  *AIC* (Akaike information Criterion) was used instead for identification and parameter estimation of the ARIMA model.
+*Mean absolute error* (lower is better) was used for evaluation of both the models and training of the network.  *AIC* (Akaike information Criterion) was used instead for identification and parameter estimation of the ARIMA model.
 
 | Models Horizon 10                           | MAE      |
 |---------------------------------------------|----------|
 | RNN no external and not differentiated data | 1006.998 |
 | RNN no external differentiated data         | 443.432  |
-| RNN external and differentiated data        | 440.530   |
+| RNN external and differentiated data        | **440.530**   |
 | ARIMA                                       | 578.280  |
 
 
 | Models Horizon 1                     | MAE     |
 |--------------------------------------|---------|
-| RNN external and differentiated data | 12.177  |
+| RNN external and differentiated data | **12.177**  |
 | ARIMA                                | 309.902 |
 
 ## Architecture details
