@@ -40,7 +40,7 @@ We can draw the following conclusions:
 ## Architecture details
 The model was built and trained entirely using Keras functional API.
 
-A summary diagram of the architecture is given by 
+A summary diagram of the architecture is given by:
 
 ![Model architecture diagram](https://github.com/Gu-ddy/StockPriceForecasting/blob/main/Images/model.png)
 On every LSTM layer l2 regularizers were used to make the network more robust. Likewise a dropout layer was added before the last fully connected layer.
@@ -49,11 +49,11 @@ The used optimizer was Adam with default learning rate and batch size equal to 2
 
 
 ## Datasets
-All used data is available inside the dedicated folder, nonetheless, cleaning and simple feature engineering operations were performed before conducting the analysis, for details look at the main notebook.
+All used data is available inside the dedicated folder, nonetheless, cleaning and simple feature engineering operations were performed before conducting the analysis, for details you can look at the [main notebook](main.ipynb) .
 
 ## Usage
-For ready-to-go usage and to reproduce the results, you can simply run the main notebook. Before doing so, you can install the dependencies by running:
-```pip install -r requirements.txt
+For ready-to-go usage and to reproduce the results, you can simply run the [main notebook](main.ipynb). Before doing so, you can install the dependencies by running:
+```pip install -r requirements.txt``` 
 
 ## Future work
 There are several improvements that could be carried out, among them we have:
