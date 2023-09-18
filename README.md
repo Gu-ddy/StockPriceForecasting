@@ -16,7 +16,7 @@ For evaluation, both a 10-days and a 1-day horizon predictions have been conside
 
 *Mean absolute error* was used for evaluation of both the models and training of the network.  *AIC* (Akaike information Criterion) was used instead for identification and parameter estimation of the ARIMA model.
 
-## Results
+## Results tables
 
 | Models Horizon 10                           | MAE      |
 |---------------------------------------------|----------|
@@ -38,17 +38,17 @@ A summary diagram of the architecture is given by
 
 ![Model architecture diagram](https://github.com/Gu-ddy/StockPriceForecasting/blob/main/Images/model.png)
 On every LSTM layer l2 regularizers were used to make the network more robust. Likewise a dropout layer was added before the last fully connected layer.
+
 The used optimizer was Adam with default learning rate and batch size equal to 256. 
 
 
 ## Datasets
-All used data is available on the dediacted folder. Nonetheless cleaning and simple feature engineering operations were performed before conducting the analysis.
+All used data is available on the dediacted folder. Nonetheless cleaning and simple feature engineering operations were performed before conducting the analysis, for details look at the main notebook.
 
 ## Future work
 There are several improvements that could be carried out, among them we have:
-* Use a more sophisticated evaluation framework.
-*  Include exogenous data also for ARIMA
-*   Use a better optimization pipeline: 
-- Use early stopping partinioning more finely the dataset with a validation set.
-- Try different batch sizes and learning rate and optimizers.
-* Include fundamental analysis (only for the network).
+* Including fundamental analysis (only for the network).
+* Using a more sophisticated evaluation framework.
+* Include exogenous data also for ARIMA.
+* Use a better optimization pipeline (e.g. early stopping )
+* Including transformers in the architecture
