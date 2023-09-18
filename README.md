@@ -31,6 +31,12 @@ For evaluation, both a 10-days and a 1-day horizon predictions have been conside
 | RNN external and differentiated data | **12.177**  |
 | ARIMA                                | 309.902 |
 
+We can draw the following conclusions:
+
+1. Differentiation has turned out to be a fundamental pre-processing step for convergence of neural networks.
+2. Neural network models outperform ARIMA given a differentiated input.
+3.  The gap between the two is larger for a smaller horizon prediction.
+4. Using external data slightly improves the performances of RNNs.
 ## Architecture details
 The model was built and trained entirely using Keras functional API.
 
