@@ -50,5 +50,5 @@ There are several improvements that could be carried out, among them we have:
 * Including fundamental analysis (only for the network).
 * Using a more sophisticated evaluation framework.
 * Include exogenous data also for ARIMA.
-* Use a better optimization pipeline (e.g. early stopping )
-* Including transformers in the architecture
+* Improving the optimization pipeline (e.g. adding early stopping with a validation set).
+* Including transformers in the architecture.
